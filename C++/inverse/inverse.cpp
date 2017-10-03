@@ -8,6 +8,7 @@ using namespace std;
 // =============================================================================
 
 using Matrix = vector<vector<double>>;
+
 Matrix Zeros(int rows, int cols);
 Matrix Minor(Matrix M, int p, int q);
 double Det(Matrix M);
